@@ -1,0 +1,29 @@
+*{
+  margin: 10px;
+  font-family: "Roboto Cn", sans-serif;
+  background-color: #daada4;
+}
+.info{
+  font-size: 20px;
+  text-decoration: none;
+}
+.About{
+  text-align: center;
+  color: black;
+}
+.context{
+  margin-left: 55px;
+  font-size: 15px;
+  border-left: 3px solid brown;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.section{
+  border-bottom: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+ul.a{
+  list-style-type: circle;
+}
