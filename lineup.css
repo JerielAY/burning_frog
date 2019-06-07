@@ -1,10 +1,6 @@
-.uithreebuttons{
-    color: rgb(80, 14, 143);
-    text-align: center;
-}
 body{
     height: 2000px;
-/*background-image: url(giphy.gif);*/
+    background-image: url(giphy.gif);
     background-size: cover;
     background-repeat:round ;
   }
@@ -21,22 +17,19 @@ color: aliceblue;
 align-self: center;
 }
 .grid-container{
-    color: white;
+    color:#daada4;
     display: grid;
-    grid-gap: auto;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
-    
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    font-family: impact;
+    padding: 10px;
+
     
 }
-.grid-item{
-    grid-column-start: 1 / span2;
-    
+.grid-item{  
     width: 200px;
     height: 200px;
-    border-color: blue;
-    border-width: 5px;
-
+    grid-row-start: 1;
 }
 #drake{
     text-align: center;
@@ -62,3 +55,91 @@ align-self: center;
     text-align:center;
     background: url(https://media.giphy.com/media/3oEjI6SEda9CiPEYXm/giphy.gif)
 }
+#davematthews{
+    text-align:center;
+    background: url(https://media.giphy.com/media/nVcbmxgwfhmIo/giphy.gif)
+}
+#marcusking{
+    text-align:center;
+    background: url(marcusking.gif)
+}
+#future{
+    text-align:center;
+    background: url(https://media.giphy.com/media/Ij3cgOUxZCU6I/giphy.gif)
+}
+#taylorswift{
+    text-align:center;
+    background: url(https://media.giphy.com/media/xT0Cyhi8GCSU91PvtC/giphy.gif)
+}
+#bruno{
+    text-align:center;
+    background: url(https://media.giphy.com/media/wIsqLDzu2L7rO/giphy.gif)
+}
+#rihanna{
+    text-align:center;
+    background: url(https://media.giphy.com/media/k1SuVPEuA89S8/giphy.gif)
+}
+#justin{
+    text-align:center;
+    background: url(https://media.giphy.com/media/uxaAzjKLRCZjO/giphy.gif)
+}
+#post{
+    text-align:center;
+    background: url(https://media.giphy.com/media/3ofSB687F2o66VfeRq/giphy.gif)
+}
+#weekend{
+    text-align:center;
+    background: url(https://media.giphy.com/media/l0Hlzq7Ow5T6UuwyQ/giphy.gif)
+}
+#sam{
+    text-align:center;
+    background: url(https://media.giphy.com/media/3o6EhLQwZCVJi7VB9m/giphy.gif)
+}
+#chris{
+    text-align:center;
+    background: url(https://media.giphy.com/media/horIGYlpcjeHm/giphy.gif)
+}
+#dragons{
+    text-align:center;
+    background: url(https://media.giphy.com/media/oTUdldhItu4V2/giphy.gif)
+}
+#kendrick{
+    text-align:center;
+    background: url(https://media.giphy.com/media/Sn1hIvTNc6BvW/giphy.gif)
+}
+#old{
+    text-align:center;
+    background: url(https://media.giphy.com/media/iDD5ODYRIEKiy7xelT/giphy.gif)
+}
+#billie{
+    text-align:center;
+    background: url(https://media.giphy.com/media/3og0IyL5YW2scz4rFm/giphy.gif)
+}
+#ed{
+    text-align:center;
+    background: url(https://media.giphy.com/media/3oKIPbQliKLSaD6vLy/giphy.gif)
+}
+#panic{
+    text-align:center;
+    background: url(https://media.giphy.com/media/3o85xtIRz0YSxZCBXy/giphy.gif)
+}
+#jonas{
+    text-align:center;
+    background: url(https://media.giphy.com/media/Zb00rtSYAYulbyPd4C/giphy.gif)
+}
+#pink{
+    text-align:center;
+    background: url(https://media.giphy.com/media/kiWRX85gnEKnYbEnFk/giphy.gif)
+}
+#jcole{
+    text-align:center;
+    background: url(https://media.giphy.com/media/8P1j10n5axj0LhPlzY/giphy.gif)
+}
+
+
+
+
+
+
+
+
