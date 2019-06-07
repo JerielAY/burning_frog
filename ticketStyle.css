@@ -2,13 +2,104 @@ body{
     background-color: #daada4;
 
 }
-#header{
-    text-align: center;
-    font-size: 50px;
-    background-color: #363d29;
-    color: white;
-    
+
+header{ /*ibackground image is here*/
+    width: 100%;
+    height: 25vh;
+    font-display: center;
 }
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+nav {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+
+.brand{
+    font-size: 3rem;
+    font-weight: 300;
+    transform: translateX(-100rem);
+    animation: slideIn .5s forwards;
+}
+.brand span {
+    color: crimson;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    transform: translateX(100rem);
+    animation: slideIn .5s forwards;
+}
+
+nav ul li a{
+    padding: 1rem 0;
+    margin: 0 3rem;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+nav ul li:nth-child(1){
+    animation-delay: 0s;
+}
+nav ul li:nth-child(2){
+    animation-delay: .5s;
+}
+nav ul li:nth-child(3){
+    animation-delay: 1s;
+}
+nav ul li:nth-child(4){
+    animation-delay: 1.5s;
+}
+
+nav ul li a:last-child{
+    margin-right: 0;
+}
+nav ul li a::before,
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: crimson;
+    left: 0;
+    transform: scaleX(0);
+    transition: all .5s;
+}
+
+nav ul li a::before{
+    top:0;
+    transform-origin: left;
+}
+nav ul li a::after{
+    bottom: 0;
+    transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+    transform: scaleX(1);
+}
+
+@keyframes slideIn {
+    from{
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
 #tables{
     padding-top: 10px;
     padding-bottom: 50px;
@@ -21,7 +112,7 @@ body{
   font-size: 40px;
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 50px; 
   margin-left: auto;
   margin-right: auto;  
@@ -39,15 +130,24 @@ body{
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 50px;
-    padding-bottom: 10px;   
+    padding-bottom: 50px;   
     margin-left: auto;
     margin-right: auto;  
     border-collapse: collapse;
     border: solid 2px white;  
   
   }
+  #header2{
+      text-align: center;
+      padding:10px;
+      text-shadow: 10px 10px 10px gray;
+      font-family: Impact;
+      font-size: 100px;
+      color:#363d29;
+  }
   #footer{
       background-color: #363d29;
       color: white;
       text-align: center;
+      font-size: 15px;
   }
