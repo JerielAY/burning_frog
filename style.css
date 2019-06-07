@@ -24,6 +24,30 @@
   padding-bottom: 10px;
   text-decoration: none;
 }
+
 ul.a{
   list-style-type: circle;
+}
+body{
+  background-image: url();
+}
+
+.links {
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: center;
+}
+
+
+.links button{
+  background-color: white;
+  border: 1px solid#363d29;
+  font-family: "Roboto Cn", sans-serif;
+  padding: 10px;
+}
+.links a {
+  background-color: white;
+  text-decoration: none;
+  color: black;
 }
