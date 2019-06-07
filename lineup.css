@@ -1,0 +1,64 @@
+.uithreebuttons{
+    color: rgb(80, 14, 143);
+    text-align: center;
+}
+body{
+    height: 2000px;
+/*background-image: url(giphy.gif);*/
+    background-size: cover;
+    background-repeat:round ;
+  }
+h2{
+  style=" 
+  padding:50px;
+  text-shadow: 10px 10px 10px gray;
+  font-family: Impact;
+  font-size: 200px;
+  color:green;""
+}
+.uilinkcards{
+color: aliceblue;
+align-self: center;
+}
+.grid-container{
+    color: white;
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    
+    
+}
+.grid-item{
+    grid-column-start: 1 / span2;
+    
+    width: 200px;
+    height: 200px;
+    border-color: blue;
+    border-width: 5px;
+
+}
+#drake{
+    text-align: center;
+    background: url(https://media.giphy.com/media/3o85xJohCZUc524lSU/giphy.gif)
+}
+#asaprocky{
+    text-align: center;
+    background: url(https://media.giphy.com/media/ZFVDjhi9ySqdy/giphy.gif)
+}
+#chainsmokers{
+    text-align: center;
+    background: url(https://media.giphy.com/media/BLyt6YhGhJeTxfuoj0/giphy.gif)
+}
+#steveaoki{
+    text-align: center;
+    background: url(https://media.giphy.com/media/l1EtoqTtzMaf9stdm/giphy.gif)
+}
+#beyonce{
+    text-align:center;
+    background: url(https://media.giphy.com/media/6J2kRTRUht18A/giphy.gif)
+}
+#cardib{
+    text-align:center;
+    background: url(https://media.giphy.com/media/3oEjI6SEda9CiPEYXm/giphy.gif)
+}
